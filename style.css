@@ -1,3 +1,38 @@
+h1 {
+    text-align: center;
+}
 body {
     background-color: black;
+    color: white;
+}
+.center {
+    text-align: center;    
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    margin: 0px 40px;
+    vertical-align: top;
+    height: 100px;
+    width: 20%;
+    cursor: pointer;
+    text-decoration: none;
+    color: initial;
+    line-height: 50px;
+}
+.button:hover {
+    opacity: 0.5; 
+}
+a.button.vocab{
+    width: 10%;
+    line-height: 90px;
+}
+.chart {
+    width:750px;
+    background-color:white;
 }
